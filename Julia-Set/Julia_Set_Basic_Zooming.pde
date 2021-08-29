@@ -1,5 +1,4 @@
-float angle = 0;
-
+//FYI: This looks like the COVID-19 virus, not on purpose :)
 //list of colors to choose from: red, orange, yellow, green, cyan, blue, violet, pink, 0 (rainbow!)
 int red = 5;
 int orange = 30;
@@ -12,21 +11,19 @@ int pink = 300;
 
 int choice = 0; //default is 0, which is all colours. <<<---------- choose color here!
 
+float angle = 0;
 void setup() {
   size(1400, 800);
   colorMode(HSB, 360);
 }
   
 void draw() {  
-  
-  //float real = map(mouseX, 0, width, -1, 1);
-  //float imaginary = map(mouseY, 0, height, -1, 1);
-  float real = 0.7885*sin(angle);//-0.4;
-  float imaginary = 0.7885*cos(angle); //0.6; 
+  float real = -0.4;      //<<<-----------change real constant here, find your fav pattern on wikipedia page of Julia Set and paste them here.
+  float imaginary = 0.6;  //<<<-----------change imaginary constant here, find your fav pattern on wikipedia page of Julia Set and paste them here.
   angle += 0.02;
   
   background(255);
-  float w = 5;//abs(sin(angle))*5;
+  float w = abs(sin(angle))*5;
   float h = (w * height) / width;
   float xmin = -w/2;
   float ymin = -h/2;

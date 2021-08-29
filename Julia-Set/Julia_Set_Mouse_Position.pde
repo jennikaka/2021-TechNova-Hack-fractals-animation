@@ -1,5 +1,3 @@
-float angle = 0;
-
 //list of colors to choose from: red, orange, yellow, green, cyan, blue, violet, pink, 0 (rainbow!)
 int red = 5;
 int orange = 30;
@@ -12,6 +10,7 @@ int pink = 300;
 
 int choice = 0; //default is 0, which is all colours. <<<---------- choose color here!
 
+float angle = 0;
 void setup() {
   size(1400, 800);
   colorMode(HSB, 360);

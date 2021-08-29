@@ -18,11 +18,10 @@ void setup() {
 }
   
 void draw() {  
-  
+  float real = 0.7885*sin(angle);
+  float imaginary = 0.7885*cos(angle);
   //float real = map(mouseX, 0, width, -1, 1);
   //float imaginary = map(mouseY, 0, height, -1, 1);
-  float real = 0.7885*sin(angle);//-0.4;
-  float imaginary = 0.7885*cos(angle); //0.6; 
   angle += 0.02;
   
   background(255);

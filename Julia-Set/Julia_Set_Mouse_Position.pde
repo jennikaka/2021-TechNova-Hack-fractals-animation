@@ -18,7 +18,6 @@ void setup() {
 }
   
 void draw() {  
-  
   float real = map(mouseX, 0, width, -1, 1);
   float imaginary = map(mouseY, 0, height, -1, 1);
   angle += 0.02;

@@ -20,7 +20,7 @@ What's Unique
 - Real math, programming, and art behind the pattern. Namely complex numbers, coordinates, quadratics, recursion, mapping, other fractals, etc.
 - “Play is a wonderful place to start learning”
 
-Challenges/Implementation
+Challenges/Implementation: 
 Due to my limited abilities, I am unable to embed this small application onto a website. Therefore, this works as a stand-alone app that is not very interactive. I hope by learning and exploring more about programming I will be able to make a Fractal Exploration webpage that really helps to bridge the gap.
 
 

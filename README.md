@@ -6,7 +6,7 @@ Problem
 - Gender gap in the STEM field
 - Girls don’t have enough exposure to the creative side of math/tech
 - Don’t know where to start
-- High-level math and/or programming  daunting (i.e. calculus, complex numbers, errors on screen)
+- High-level math and/or programming is daunting (i.e. calculus, complex numbers, errors on screen)
 
 Solution
 - Explore connections between math and arts (i.e., Fractals)

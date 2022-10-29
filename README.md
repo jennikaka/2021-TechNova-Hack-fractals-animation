@@ -1,6 +1,6 @@
 # fractal-collection
 The Julia-Set folder is the main project for the TechNova Hackathon 2021.
-However, all three sub-projects are created during the 36-hour time frame and severs the same purpose - bridging the gap between mathematics and arts (as well as gender gap in STEM fields).
+However, all three sub-projects are created during the 36-hour time frame and serves the same purpose - bridging the gap between mathematics and arts (as well as gender gap in STEM fields).
 
 Problem
 - Gender gap in the STEM field
